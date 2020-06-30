@@ -4,8 +4,10 @@ ersu test2
 
 git push origin :feature2 ( branch origin 삭제 )
 
-git branch -r ( 삭제확인 )
+git branch -r ( 원격제어중인 branch 뜸 )
 
 git push origin/id
 
 git checkout -t origin/develop
+
+git push --set-upstream origin feature11
