@@ -32,6 +32,10 @@ git branch -D 브랜치 이름 ( 삭제 )
 git -checkout -b {이름} // branch를 만들고 바로 checkout 하는 명령어를 합친 것!
 
 git log --branches --graph --decorate --oneline // git branch 그래프로 보기?
+
+git config --global user.name {이름}
+git config --global user.email {이메일} 
+
 ```
 
 ### project board
