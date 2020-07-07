@@ -65,12 +65,12 @@ git push --set-upstream origin [branch name]
 git pull origin {branch name}
 
 ```
+
+```
 master branch에서 작업할때는 pull을 먼저 해주어야 된다
 branch를 바꿀때는 commit을 해야 변경이 된다
 ```
 
-=======
->>>>>>> 7d1a2ac974c8afa4942506c4dce4f02c9923a724
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
