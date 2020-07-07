@@ -11,7 +11,7 @@
 
 
 
-### git 명령어
+# git 명령어
 
 ```
 git branch -r : 원격저장소의 모든 브랜치 보이기
@@ -59,6 +59,11 @@ github branch 삭제하기
 
 현재 로컬에서만 branch를 생성한 상태이기 때문에 아래 명령을 입력해서 upstream branch로 만들어 준다 -
 git push --set-upstream origin [branch name]
+```
+
+```
+master branch에서 작업할때는 pull을 먼저 해주어야 된다
+branch를 바꿀때는 commit을 해야 변경이 된다
 ```
 
 
