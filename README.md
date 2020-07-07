@@ -60,8 +60,11 @@ github branch 삭제하기
 현재 로컬에서만 branch를 생성한 상태이기 때문에 아래 명령을 입력해서 upstream branch로 만들어 준다 -
 git push --set-upstream origin [branch name]
 ```
+### 원격지에서 다른 branch 가져오기 ### 
+```
+git pull origin {branch name}
 
-
+```
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
