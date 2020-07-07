@@ -36,7 +36,7 @@ git log --branches --graph --decorate --oneline // git branch 그래프로 보�
 git config --global user.name {이름}
 git config --global user.email {이메일} 
 
-git push origin :[브랜치명] : local에서 branch 삭제 후 github에 남아 있는 branch 지우기
+
 
 ```
 
@@ -50,6 +50,15 @@ github branch 가져오기
 4-1)
 - 현재 로컬에서만 branch를 생성한 상태이기 때문에 아래 명령을 입력해서 upstream branch로 만들어 준다 -
 git push --set-upstream origin [branch name]
+```
+
+```
+github branch 삭제하기
+
+1. git branch [브랜치명]: 지울 branch명 확인
+2. git branch -D [브랜치명] : local에서 branch 삭제
+3. git push : push후 삭제가 되는 듯
+4. git push origin :[브랜치명] : local에서 branch 삭제 후 github에 남아 있는 branch 지우기
 ```
 
 ### project board
