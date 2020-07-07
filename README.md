@@ -46,6 +46,10 @@ github branch 가져오기
 1. git remote update
 2. git branch -r 목록보기
 3. git checkout -t [branch -r 해서 뜨는 branch 명]
+4. 가져온 branch push 방법
+4-1)
+- 현재 로컬에서만 branch를 생성한 상태이기 때문에 아래 명령을 입력해서 upstream branch로 만들어 준다 -
+git push --set-upstream origin [branch name]
 ```
 
 ### project board
