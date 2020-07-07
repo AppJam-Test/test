@@ -40,6 +40,14 @@ git push origin :[브랜치명] : local에서 branch 삭제 후 github에 남아
 
 ```
 
+```
+github branch 가져오기
+
+1. git remote update
+2. git branch -r 목록보기
+3. git checkout -t [branch -r 해서 뜨는 branch 명]
+```
+
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
