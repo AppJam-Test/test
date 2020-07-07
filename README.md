@@ -71,6 +71,10 @@ master branch에서 작업할때는 pull을 먼저 해주어야 된다
 branch를 바꿀때는 commit을 해야 변경이 된다
 ```
 
+```
+git branch 해서 지금 어디 branch에 있는지 자주 확인해보자!
+```
+
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
