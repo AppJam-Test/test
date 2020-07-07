@@ -36,6 +36,8 @@ git log --branches --graph --decorate --oneline // git branch 그래프로 보�
 git config --global user.name {이름}
 git config --global user.email {이메일} 
 
+git push origin :[브랜치명] : local에서 branch 삭제 후 github에 남아 있는 branch 지우기
+
 ```
 
 ### project board
