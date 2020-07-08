@@ -144,6 +144,14 @@ LEFT OUTER JOIN , RIGHT OUTER JOIN 은 왼쪽, 오른쪽 테이블에 조인시�
 
 ```
 
+```
+NATURAL JOIN
+
+WHERE s.s_id = o.o_id
+WHERE  자연 조인에서는 조인 조건을 기술하지 않아도 자동으로 공통 컬럼을 찾아서 조인한다. 또 SELECT 절에 테이블 명을 기술하지 않고 검색하는 것이 가능하다.
+```
+
+
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
