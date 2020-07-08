@@ -133,6 +133,17 @@ ON o.s_id = s.s_id;
 |3|백선혜|2013/05/14|
 
 
+```
+일반적으로 JOIN문 = INNER JOIN
+
+LEFT JOIN / RIGHT JOIN 차이
+결과가 왼쪽 테이블 '전체' 데이터 대상이라면 LEFT
+결과가 오른쪽 테이블 '전체' 데이터 대상이라면 RIGHT
+
+LEFT OUTER JOIN , RIGHT OUTER JOIN 은 오른쪽 테이블(아래 예제에서 emp테이블)에 조인시킬 컬럼의 값이 없는 경우 사용한다.
+
+```
+
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
