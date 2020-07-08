@@ -117,6 +117,14 @@ LEFT, RIGHT JOIN 은 INNER 위치에 LEFT, RIGHT가 들어가는 형태
 | 6 | 2 | 2013/05/13|
 |7|3|2013/05/14|
 
+#### table a
+
+| a_id | s_id | title| 
+| ------ | ------- | ---- |
+| 4 | 1|hi |
+| 5 | 2 |hello |
+|6|3|bye|
+
 ```
 SELECT s.s_id, s.s_name, o.o_date
 FROM s
