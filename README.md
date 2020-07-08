@@ -176,6 +176,7 @@ SELECT * FROM s JOIN o ON s.s_id=o.s_id JOIN a ON a.s_id=s.s_id;
 | 2 | 김정욱 |6 |2013/05/13|
 |3|백선혜|7 |2013/05/14|
 
+(이미지)[https://github.com/AppJam-Test/test/blob/master/JOIN.JPG]
 
 ### project board
 * todo이슈는 done으로 넘기기
