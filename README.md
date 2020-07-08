@@ -140,7 +140,7 @@ LEFT JOIN / RIGHT JOIN 차이
 결과가 왼쪽 테이블 '전체' 데이터 대상이라면 LEFT
 결과가 오른쪽 테이블 '전체' 데이터 대상이라면 RIGHT
 
-LEFT OUTER JOIN , RIGHT OUTER JOIN 은 오른쪽 테이블(아래 예제에서 emp테이블)에 조인시킬 컬럼의 값이 없는 경우 사용한다.
+LEFT OUTER JOIN , RIGHT OUTER JOIN 은 왼쪽, 오른쪽 테이블에 조인시킬 컬럼의 값이 NULL 이 있는 경우 사용한다.
 
 ```
 
