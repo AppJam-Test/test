@@ -78,6 +78,61 @@ git branch 해서 지금 어디 branch에 있는지 자주 확인해보기
 (develop이나 master branch에 push하는 것을 방지하기 위해)
 ```
 
+
+[SQL JOIN문 참조한 링크](https://www.techonthenet.com/mysql/joins.php#:~:text=MySQL%20JOINS%20are%20used%20to,or%20sometimes%20called%20LEFT%20JOIN)
+```
+SQL JOIN 문
+
+기본 개념:
+SELECT columns
+FROM table1 
+INNER JOIN table2
+ON table1.column = table2.column;
+
+test, test2 table이 있다고 가정
+test : id,name
+test2 : id,name,title column 있을 때
+
+SELECT test.name test.id
+FROM test
+INNER JOIN test2
+ON test.id=test2.id
+(↑ 예제로 적합x이지만 그냥 기록용으로 )
+LEFT, RIGHT JOIN 은 INNER 위치에 LEFT, RIGHT가 들어가는 형태
+
+```
+#### table s
+
+| s_id | s_name | 
+| ------ | ---- | 
+| 1 | 임얼쑤 | 
+| 2 | 김정욱 |
+|3 | 백선혜|
+
+#### table o
+
+| o_id | s_id | o_date      |
+| ------ | ------- | --------- |
+| 5 | 1| 2013/05/12|
+| 6 | 2 | 2013/05/13|
+|7|3|2013/05/14|
+
+```
+SELECT s.s_id, s.s_name, o.o_date
+FROM s
+INNER JOIN o
+ON o.s_id = s.s_id;
+```
+
+#### RESULT
+
+| s_id | s_name | o_date      |
+| ------ | ------- | --------- |
+| 1 | 임얼쑤| 2013/05/12|
+| 2 | 김정욱 | 2013/05/13|
+|3|백선혜|2013/05/14|
+
+
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
