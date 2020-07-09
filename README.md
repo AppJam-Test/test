@@ -186,6 +186,11 @@ SELECT * FROM s JOIN o ON s.s_id=o.s_id JOIN a ON a.s_id=s.s_id;
 
 ![JOIN](https://github.com/AppJam-Test/test/blob/master/JOIN.JPG)
 
+```
+USE InventoryBox;
+하면 MySQL 에서 일일이 InventoryBox 안붙여도 된다
+```
+
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
