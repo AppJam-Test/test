@@ -59,6 +59,9 @@ github branch 삭제하기
 
 현재 로컬에서만 branch를 생성한 상태이기 때문에 아래 명령을 입력해서 upstream branch로 만들어 준다 -
 git push --set-upstream origin [branch name]
+
+특정 branch clone 방법
+git clone -b {branch_name} --single-branch {저장소 URL}
 ```
 
 ```
