@@ -194,6 +194,17 @@ USE InventoryBox;
 하면 MySQL 에서 일일이 InventoryBox 안붙여도 된다
 ```
 
+```
+JSON 추가
+   result.img = img;
+
+JSON delete
+   delete result[a].iconIdx
+   delete result[a].categoryIdx
+```
+
+
+
 ### project board
 * todo이슈는 done으로 넘기기
 * inprogress이슈는 코드리뷰후 삭제하기
