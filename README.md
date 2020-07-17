@@ -203,6 +203,12 @@ JSON delete
    delete result[a].categoryIdx
 ```
 
+```
+pm2
+git pull 받은 다음에
+pm2 restart [이름]([pm2 list해서 보이는 이름]))
+```
+
 
 
 ### project board
