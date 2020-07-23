@@ -9,7 +9,6 @@
 2020-06-30  로그인 기능 수정  ADD
 ```
 
-[!유다시티의 커밋 메시지 작성 가이드](https://udacity.github.io/git-styleguide/)
 ```
 feat: 새로운 기능을 추가할 경우
 fix: 버그를 고친 경우
@@ -19,6 +18,7 @@ refactor: 프로덕션 코드 리팩터링
 test: 테스트 추가, 테스트 리팩터링 (프로덕션 코드 변경 없음)
 chore: 빌드 테스크 업데이트, 패키지 매니저 설정할 경우 (프로덕션 코드 변경 없음)
 ```
+from [유다시티의 커밋 메시지 작성 가이드](https://udacity.github.io/git-styleguide/)
 
 
 # git 명령어
