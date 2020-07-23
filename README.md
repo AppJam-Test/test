@@ -1,5 +1,10 @@
 # InventoryBox_Server
 
+## README 작성 참고
+* [영문 큐레이션](https://github.com/matiassingers/awesome-readme)
+* [국문 템플릿](https://github.com/sujinleeme/readme-template/tree/master/korean)
+* [뱃지](https://shields.io/)
+
 ## gitignore 돼 있는지 항상 확인 !
 
 ## Commit convention rule : 날짜 - 내용 - 상태
@@ -90,10 +95,7 @@ git branch 해서 지금 어디 branch에 있는지 자주 확인해보기
 (develop이나 master branch에 push하는 것을 방지하기 위해)
 ```
 
-## README 작성 참고
-* [영문 큐레이션](https://github.com/matiassingers/awesome-readme)
-* [국문 템플릿](https://github.com/sujinleeme/readme-template/tree/master/korean)
-* [뱃지](https://shields.io/)
+
 
 ## SQL 공부
 
